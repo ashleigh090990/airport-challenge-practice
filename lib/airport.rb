@@ -1,7 +1,6 @@
 require_relative "plane"
 
 class Airport
-
   attr_accessor :capacity, :planes
   
   def initialize
@@ -17,15 +16,4 @@ class Airport
   def reached_capacity?
   	@planes.length >= capacity
   end
-
-  # def good_weather
-  # 	@weather == "sunny"
-  # end
-
-  # def bad_weather
-  # 	@weather == "stormy"
-  # end
-
-
-
 end
